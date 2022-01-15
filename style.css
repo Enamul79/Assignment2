@@ -92,7 +92,7 @@ body {
   position: relative;
   top: -300px;
   right: 43px;
-  /* animation: icon 2.5s ease-in-out 0.1s infinite alternate; */
+
 }
 @keyframes icon {
   0% {
@@ -224,7 +224,7 @@ body {
   width: 60%;
 }
 .discount-thumbnail img {
-  width: 100%;
+   width: 100%;
   border-radius: 20px;
 }
 
