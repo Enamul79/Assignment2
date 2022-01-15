@@ -3,6 +3,7 @@
   padding: 0;
 }
 body {
+  background-color: #787885;
   font-family: 'IBM Plex Mono', monospace;
   font-family: 'Open Sans', sans-serif;
   font-family: 'Pacifico', cursive;
@@ -16,7 +17,7 @@ body {
   width: 1400px;
   margin: 0 auto;
   padding: 60px 55px;
-  background-color: #fff;
+  background-color: rgb(179, 144, 144);
 }
 .navigation {
   display: flex;
@@ -31,11 +32,12 @@ body {
   display: flex;
 }
 .nav-right a {
-  font-size: 18px;
+  font-size: 25px;
+  color:white;
   text-decoration: none;
-  margin-left: 50px;
-  font-weight: 900;
-  color: #3a3a3a;
+  margin-left: 49px;
+  font-weight: 700;
+  color: #d6c4c4;
 }
 
 /* influencer section start here */
@@ -56,11 +58,11 @@ body {
 }
 .influencer-left-details p {
   font-size: 20px;
-  color: #3a3a3a;
+  color:#ffffff;
 }
 .main-button {
   padding: 12px 30px;
-  background-color: #e02c6d;
+  background-color: #c73964;
   color: #ffffff;
   border-radius: 20px;
   border: none;
@@ -90,7 +92,7 @@ body {
   position: relative;
   top: -300px;
   right: 43px;
-  animation: icon 2.5s ease-in-out 0.1s infinite alternate;
+  /* animation: icon 2.5s ease-in-out 0.1s infinite alternate; */
 }
 @keyframes icon {
   0% {
@@ -201,21 +203,22 @@ body {
   width: 40%;
 }
 .discount-left h1 {
-  font-size: 65px;
+  font-size: 50px;
   color: #3a3a3a;
 }
-.discount-left p {
-  color: #787885;
+.discount-left> p {
+  color: white;
   font-size: 22px;
   padding-top: 40px;
 }
 .discount-left button {
   background-color: #e02c6d;
   border: none;
-  padding: 15px 40px;
+  border-radius: 25px;
+  padding: 15px 50px;
   color: #ffffff;
   margin-top: 30px;
-  font-weight: 700;
+  font-weight: 600;
 }
 .discount-right {
   width: 60%;
